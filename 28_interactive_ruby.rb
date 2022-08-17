@@ -1,0 +1,1 @@
+# irb is used to run ruby in the therminal (command prompt in my case)
