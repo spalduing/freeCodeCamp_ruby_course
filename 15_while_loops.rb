@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 index = 1
 
 while index <= 5

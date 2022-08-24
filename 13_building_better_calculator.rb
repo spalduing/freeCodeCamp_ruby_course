@@ -1,19 +1,20 @@
-puts "Enter first number: "
-num1 = gets.chomp().to_f
-puts "Enter operator: "
-operator = gets.chomp()
-puts "Enter second number: "
-num2 = gets.chomp().to_f
+# frozen_string_literal: true
 
+puts 'Enter first number: '
+num1 = gets.chomp.to_f
+puts 'Enter operator: '
+operator = gets.chomp
+puts 'Enter second number: '
+num2 = gets.chomp.to_f
 
 if operator == '+'
-    puts (num1 + num2)
+  puts(num1 + num2)
 elsif operator == '-'
-    puts (num1 - num2)
+  puts(num1 - num2)
 elsif operator == '*'
-    puts (num1 * num2)
+  puts(num1 * num2)
 elsif operator == '/'
-    puts (num1 / num2)
+  puts(num1 / num2)
 else
-    puts "invalid operator"
+  puts 'invalid operator'
 end
