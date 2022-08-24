@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # # Append something into the file
 # File.open("employees.txt", "a") do |file|
 #     file.write("\nOscar, Accounting")
@@ -14,15 +16,7 @@
 #     file.write("<h1>Hello</h1>")
 # end
 
-
-File.open("employees.txt", "r+") do |file|
-    file.readline()
-    file.write("Overridden")
+File.open('employees.txt', 'r+') do |file|
+  file.readline
+  file.write('Overridden')
 end
-
-
-
-
-
-
-

@@ -1,9 +1,11 @@
-puts "Enter your name: "
+# frozen_string_literal: true
 
-name = gets.chomp()
+puts 'Enter your name: '
 
-puts "Enter your age: "
+name = gets.chomp
 
-age = gets.chomp()
+puts 'Enter your age: '
 
-puts ("Hello " + name + ", you are #{age}")
+age = gets.chomp
+
+puts("Hello #{name}, you are #{age}")

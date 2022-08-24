@@ -1,19 +1,20 @@
 # Hashes, often called as dictionaries
 # are data structures that stores multiple
+# frozen_string_literal: true
+
 # elements in form of key-value pairs
-# notes: 
+# notes:
 #   - The keys must be unique
 #   - You can use the : syntax for keys
 #   - You can use nubmers as keys
 
 states = {
-    "Pennsylvania" => "PA",
-    "New York" => "NY",
-    :Oregon => "OR",
-    4 => "LA",
+  'Pennsylvania' => 'PA',
+  'New York' => 'NY',
+  :Oregon => 'OR',
+  4 => 'LA'
 }
 
-
-puts states["New York"]
+puts states['New York']
 puts states[:Oregon]
 puts states[4]

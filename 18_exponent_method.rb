@@ -1,11 +1,13 @@
-def pow(base_num, pow_num)
-    result = 1
-    
-    pow_num.times do |index|
-        result = result * base_num
-    end
+# frozen_string_literal: true
 
-    return result
+def pow(base_num, pow_num)
+  result = 1
+
+  pow_num.times do |_index|
+    result *= base_num
+  end
+
+  result
 end
 
-puts pow(3,2)
+puts pow(3, 2)
